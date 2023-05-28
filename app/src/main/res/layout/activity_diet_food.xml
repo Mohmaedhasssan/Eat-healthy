@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diet_foodActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="423dp"
+            android:layout_height="58dp"
+            android:text="Diet Food"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#131313"
+            android:textSize="34sp" />
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/btn_categoriy_diabits"
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#F82154"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/whole_eggs" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Whole eggs"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="Helps regulate your body's cholesterol levels."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#B597EC"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/leafy_greens" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Leafy greens"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="Leafy greens include kale, spinach, collard greens, Swiss chard, and a few others."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            android:baselineAlignBottom="false"
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#AFEA6B"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/salmon" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Salmon"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="Salmon is loaded with high quality protein and various important nutrients."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#68C8F4"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/tuna" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Tuna"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/white"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="It’s a lean fish, meaning it has protein, which helps keep you full, as well as healthy fats."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#F57148"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/soups" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Soups"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="Soup can be a delicious way to increase your intake of vegetables."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#AB00C8"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/cottage_cheese" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Cottage cheese"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="One of the most protein-rich  products is cottage cheese, which is mostly protein."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#F79191"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/avocados" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Avocados"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="avocados is contain a lot of water and fiber, making them greatly satiating."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diabetic_foodActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="376dp"
+            android:layout_height="56dp"
+            android:text="Diabetic Food"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#131313"
+            android:textSize="34sp" />
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="696dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/btn_categoriy_diabits"
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="@color/purple_200"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/diabets_food_1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Vegetables"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="Vegetables are parts of plants that are consumed by humans Read More..."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#4ADCEF"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/diabets_food_3" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Sauerkraut"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="Sauerkraut, for the same   as pickles"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#E8125B"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/diabets_food_2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Veggies"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="veggies cooked with lots of addend butter , cheese"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+
+
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="223dp"
+                android:background="#F1DF44"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="158dp"
+                    android:layout_height="187dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beans_diabetc" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="41dp"
+                        android:gravity="center"
+                        android:text="Beans"
+                        android:textColor="#101010"
+                        android:textSize="34sp" />
+
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="157dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:progressBackgroundTint="@color/purple_500"
+                        android:progressTint="@color/teal_200"
+                        android:rating="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="30dp"
+                        android:gravity="center"
+                        android:text=" navy or black beans are packed with vitamins and minerals such as magnesium and potassium."
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <ImageButton
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/baseline_favorite_border_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#4AB04E"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/citrus_fruit_diabetic" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Citrus fruit"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="Grapefruits, oranges, lemons and limes or pick your favorites to get vitamin C."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:background="#E3655C"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="158dp"
+                        android:layout_height="187dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/citrus_fruit_diabetic" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="41dp"
+                            android:gravity="center"
+                            android:text="Tomatoes"
+                            android:textColor="#101010"
+                            android:textSize="34sp" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:layout_width="157dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:progressBackgroundTint="@color/purple_500"
+                            android:progressTint="@color/teal_200"
+                            android:rating="3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="30dp"
+                            android:gravity="center"
+                            android:text="you’re eating vital nutrients like vitamin C, vitamin E and potassium."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageButton
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/baseline_favorite_border_24" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
